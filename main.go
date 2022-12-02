@@ -8,6 +8,7 @@ import (
 	"os"
 )
 
+//Test test
 func printCommandEvents(analyticsChannel <-chan *slacker.CommandEvent) {
 	for event := range analyticsChannel {
 		fmt.Println("Command Events")
